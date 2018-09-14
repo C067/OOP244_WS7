@@ -1,0 +1,29 @@
+//Callum Dodge
+//Workshop 7
+//July 9, 2018 
+//100 229 178
+
+Reflection:
+
+1. No the Hero class does not need to know about the existence of the SuperHero class
+because we are using the Hero class to make the SuperHero class. The reason why the Hero
+class doesn't need to know about the SuperHero class is because the Hero class is a seperate
+class in general. Its purpose is to store the name, health and attack of a hero. Then, it 
+calculates which hero is victorious.
+
+2. Yes the SuperHero class does need to know about the existence of the Hero class because
+the Hero class is a base of the derived class, SuperHero. The SuperHero class is based on the
+data members and functions of the bass class. The only difference, the derived class can 
+have their own data members and functions. 
+
+3.The reason why the program prints out, "Ancient Battle!" because a Hero is fighting a
+SuperHero. When a SuperHero fights a Hero, the SuperHero can't use any of their super powers
+making it a fair fight against a Hero as a Hero only has three data members. To determine this, 
+the Hero constructor is called first; this assigns both ojects with the same amount of data 
+members. 
+
+4. Both of the following definitions are true because you are initializing both objects with 
+a 3-argument constructor for each object. The object will then store data into each constructor 
+and then call the operator function. 
+
+Quiz Reflection:

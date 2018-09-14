@@ -1,0 +1,9 @@
+﻿  Hero.cpp
+g:\school\oop\oop-workshops-master\ws07\at_home\hero.cpp(26): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+  SuperHero.cpp
+g:\school\oop\oop-workshops-master\ws07\at_home\superhero.cpp(18): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+  w7_at_home.cpp
+  Generating Code...
+  at_home.vcxproj -> G:\School\OOP\OOP-Workshops-master\WS07\at_home\Debug\at_home.exe
